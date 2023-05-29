@@ -1,0 +1,12 @@
+h1 {
+  color: blue;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+#resultContainer {
+  font-size: 18px;
+  margin-top: 20px;
+}

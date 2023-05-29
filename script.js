@@ -26,7 +26,7 @@ fetch('rate.xml')
         resetForm();
         return;
       }
-      const resultContainer = document.getElementById('resultContainer');
+      const resultContainer = document.getElementById('result');
       resultContainer.innerHTML = '';
 
       const currencies = ['USD', 'EUR', 'JPY', 'KRW', 'AUD'];
@@ -40,13 +40,13 @@ fetch('rate.xml')
       resetForm();
     });
 
-    const resetBtn = document.getElementById('resetBtn');
+    const resetBtn = document.getElementById('reset');
     resetBtn.addEventListener('click', resetForm);
 
 
     function resetForm() {
       form.reset();
-      const resultContainer = document.getElementById('resultContainer');
+      const resultContainer = document.getElementById('result');
       resultContainer.innerHTML = '';
     }
   });
